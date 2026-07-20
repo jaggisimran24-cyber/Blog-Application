@@ -33,7 +33,7 @@ function Blogs() {
     async function searchBlogById(){
 
         const response = await fetch(
-            `https://blog-application-6uvw.onrender.com/${blogId}`
+            `https://blog-application-6uvw.onrender.com/blogs/${blogId}`
         );
 
         const data = await response.json();
@@ -84,7 +84,7 @@ function Blogs() {
 
         await fetch(
 
-            `https://blog-application-6uvw.onrender.com/${blogId}`,
+            `https://blog-application-6uvw.onrender.com/blogs/${blogId}`,
 
             {
                 method:"DELETE"
@@ -121,7 +121,7 @@ function Blogs() {
 
         await fetch(
 
-            `https://blog-application-6uvw.onrender.com/${blogId}`,
+            `https://blog-application-6uvw.onrender.com/blogs/${blogId}`,
 
             {
 
@@ -153,7 +153,7 @@ function Blogs() {
 
         await fetch(
 
-            `https://blog-application-6uvw.onrender.com/${blogId}`,
+            `https://blog-application-6uvw.onrender.com/blogs/${blogId}`,
 
             {
 
