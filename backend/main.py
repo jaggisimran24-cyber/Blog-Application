@@ -8,7 +8,7 @@ app = FastAPI()
 # to communicate with this FastAPI backend.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173, https://blog-application-nu-ochre.vercel.app/"],
+    allow_origins=["http://localhost:5173", "https://blog-application-nu-ochre.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
     allow_credentials=True
