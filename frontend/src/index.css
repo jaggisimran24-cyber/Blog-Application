@@ -110,7 +110,7 @@ code {
   background: var(--code-bg);
 }
 
-.container{
+/* .container{
   width:700px;
   margin:auto;
 }
@@ -137,4 +137,194 @@ input, textarea{
   margin-top:20px;
   border-radius: 8px;
   box-shadow: 0px 2px 8px lightgray;
+} */
+
+.container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+}
+
+/* Page */
+
+body{
+    background:#f4f6f9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color:#2d3748;
+}
+
+/* Heading */
+
+h1{
+    text-align:center;
+    color:#1f2937;
+    font-size:48px;
+    margin-bottom:35px;
+    font-weight:600;
+}
+
+/* Forms */
+
+.form{
+    margin:30px 0;
+}
+
+input,
+textarea{
+
+    width:100%;
+    padding:14px 16px;
+    margin-top:15px;
+
+    border:1px solid #d1d5db;
+    border-radius:8px;
+
+    font-size:15px;
+    transition:.3s;
+
+    box-sizing:border-box;
+}
+
+textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+/* Buttons */
+
+button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin:15px 10px 0 0;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.25s;
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(37,99,235,.25);
+
+}
+
+button:active{
+
+    transform:scale(.98);
+
+}
+
+/* Divider */
+
+hr{
+
+    border:none;
+
+    height:1px;
+
+    background:#e5e7eb;
+
+    margin:40px 0;
+
+}
+
+/* Blog Card */
+
+.card{
+
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    margin-top:22px;
+
+    border-left:5px solid #2563eb;
+
+    box-shadow:0 6px 18px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 14px 30px rgba(0,0,0,.12);
+
+}
+
+/* Card Headings */
+
+.card h3{
+
+    margin:0;
+
+    color:#2563eb;
+
+    font-size:18px;
+
+}
+
+.card h2{
+
+    margin:15px 0 10px;
+
+    color:#111827;
+
+    font-size:28px;
+
+}
+
+.card h4{
+
+    color:#6b7280;
+
+    margin-bottom:18px;
+
+    font-weight:500;
+
+}
+
+.card p{
+
+    line-height:1.8;
+
+    color:#374151;
+
+    font-size:15px;
+
 }
