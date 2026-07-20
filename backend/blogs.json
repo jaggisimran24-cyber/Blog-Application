@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2,
+        "title": "Gen AI",
+        "author": "Jiya Gaba",
+        "content": "React uses components."
+    },
+    {
+        "id": 4,
+        "title": "Gen AI",
+        "author": "Jiya Gaba",
+        "content": "ai"
+    },
+    {
+        "id": 5,
+        "title": "AI",
+        "author": "Simran",
+        "content": "AI is machines mimicing human intelligence"
+    }
+]
