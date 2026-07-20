@@ -19,7 +19,7 @@ function Blogs() {
     // ==========================================
     async function getBlogs(){
 
-        const response = await fetch("http://127.0.0.1:8000/blogs");
+        const response = await fetch("https://blog-application-6uvw.onrender.com/blogs");
 
         const data = await response.json();
 
@@ -33,7 +33,7 @@ function Blogs() {
     async function searchBlogById(){
 
         const response = await fetch(
-            `http://127.0.0.1:8000/blogs/${blogId}`
+            `https://blog-application-6uvw.onrender.com/${blogId}`
         );
 
         const data = await response.json();
@@ -49,7 +49,7 @@ function Blogs() {
     // ==========================================
     async function createBlog(){
 
-        await fetch("http://127.0.0.1:8000/blogs",{
+        await fetch("https://blog-application-6uvw.onrender.com/blogs",{
 
             method:"POST",
 
@@ -84,7 +84,7 @@ function Blogs() {
 
         await fetch(
 
-            `http://127.0.0.1:8000/blogs/${blogId}`,
+            `https://blog-application-6uvw.onrender.com/${blogId}`,
 
             {
                 method:"DELETE"
@@ -121,7 +121,7 @@ function Blogs() {
 
         await fetch(
 
-            `http://127.0.0.1:8000/blogs/${blogId}`,
+            `https://blog-application-6uvw.onrender.com/${blogId}`,
 
             {
 
@@ -153,7 +153,7 @@ function Blogs() {
 
         await fetch(
 
-            `http://127.0.0.1:8000/blogs/${blogId}`,
+            `https://blog-application-6uvw.onrender.com/${blogId}`,
 
             {
 
